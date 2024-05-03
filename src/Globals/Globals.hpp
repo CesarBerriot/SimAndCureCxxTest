@@ -7,5 +7,5 @@
 #include "DataTypes/DataTypes.hpp"
 
 namespace Globals
-{	extern DataTypes::WordScoresMap_t wordScoresMap;
+{	extern DataTypes::WordScoresMap_t const wordScoresMap;
 }

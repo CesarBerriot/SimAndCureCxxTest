@@ -5,7 +5,7 @@
 #include "Globals.hpp"
 
 namespace Globals
-{	DataTypes::WordScoresMap_t wordScoresMap =
+{	DataTypes::WordScoresMap_t const wordScoresMap =
 	{	{ L'A', 32 },
 		{ L'B', 36 },
 		{ L'C', 33 },

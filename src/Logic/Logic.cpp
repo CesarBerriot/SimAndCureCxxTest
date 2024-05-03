@@ -45,7 +45,7 @@ int Logic::SumWordScore(std::wstring word)
 {	int result = 0;
 	for(wchar_t character : word)
 		if(Globals::wordScoresMap.count(character))
-			result += Globals::wordScoresMap[character];
+			result += Globals::wordScoresMap.at(character);
 	return result;
 }
 
